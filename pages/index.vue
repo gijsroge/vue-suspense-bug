@@ -1,9 +1,6 @@
-<script setup lang="ts">
-await new Promise(resolve => setTimeout(() => resolve(true), 1000))
-</script>
 <template>
   <div>
-    <h1>index</h1>
+    <h1>index without async data</h1>
     <hr>
     <normal-component />
   </div>

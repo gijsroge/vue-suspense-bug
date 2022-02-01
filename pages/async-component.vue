@@ -4,7 +4,7 @@ import useComponentLoader from "~/composables/useComponentLoader";
 
 <template>
   <div>
-    <h1>two</h1>
+    <h1>async</h1>
     <hr>
     <component
         :is="useComponentLoader({ component: 'async-component' })"
