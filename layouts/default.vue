@@ -16,6 +16,13 @@
         <router-link to="/3"><strong>3</strong> go to page with async data and async component</router-link>
       </li>
     </ul>
+
+    <p>Switching quickly between these 2 routes causes a Suspense issue</p>
+    <ul>
+      <li><router-link to="/2"><strong>2</strong> go to page with async data and normal component</router-link></li>
+      <li><router-link to="/4"><strong>4</strong> go to page with async data and normal component</router-link></li>
+
+    </ul>
     <slot></slot>
   </div>
 </template>
