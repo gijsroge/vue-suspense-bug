@@ -5,7 +5,6 @@ import useComponentLoader from "~/composables/useComponentLoader";
 <template>
   <div>
     <h1>3 route with async component that has async data</h1>
-    <hr>
     <component
         :is="useComponentLoader({ component: 'async-component' })"
     ></component>
