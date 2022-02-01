@@ -19,7 +19,7 @@
     <ul>
       <li><router-link to="/2"><strong>2</strong> page with async data and normal component</router-link></li>
       <li>
-        <router-link to="/3"><strong>3</strong> page with async component that has async data</router-link>
+        <router-link to="/3"><strong>3</strong> page with async component</router-link>
       </li>
     </ul>
     <hr>
